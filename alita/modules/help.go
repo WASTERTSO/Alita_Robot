@@ -31,7 +31,7 @@ const (
 	startHelp = "Hᴇʏ Tʜᴇʀᴇ Iᴍ Bᴇᴇʀᴜs Tʜᴇ Gᴏᴅ Oғ Dᴇsᴛʀᴜᴄᴛɪᴏɴ\n" +
 		"Iᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ\n" +
 		"Hɪᴛ /mstart Fᴏʀ Mᴜsɪᴄ Sᴇᴄᴛɪᴏɴ\n" +
-		"Aʙᴏᴜᴛ Oғ Mʏ Cʀᴇᴀᴛᴏʀ <a href='https://t.me/about_your_shiv'>Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ</a> 🥀"
+		"Aʙᴏᴜᴛ Oғ Mʏ Cʀᴇᴀᴛᴏʀ <a href='https://t.me/about_your_shiv'>Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ</a>🥀"
 	mainhlp = "Hey %s!\n" +
 		"My name is Alita ✨.\n\n" +
 		"I am a group management bot, here to help you get around and keep the order in your groups!\n" +
@@ -59,7 +59,7 @@ var (
 		InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 			{
 				{
-					Text:         "Aʙᴏᴜᴛ Mᴇ 🤖",
+					Text:         "Aʙᴏᴜᴛ Mᴇ 👨\u200d💻",
 					CallbackData: "about.me",
 				},
 			},
