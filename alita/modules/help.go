@@ -28,10 +28,10 @@ var HelpModule = moduleStruct{
 
 const (
 	aboutText = "Info & About\n\nHere are some of the FAQs about Alita."
-	startHelp = "Hey there! My name is Alita ✨.\n" +
-		"I'm here to help you manage your groups!\n" +
-		"Hit /help to find out more about how to use me to my full potential.\n" +
-		"Join my <a href='https://t.me/AlitaRobotUpdates'>News Channel</a> to get information on all the latest updates."
+	startHelp = "𝗛𝗲𝘆 𝗧𝗵𝗲𝗿𝗲! 𝗠𝘆 𝗡𝗮𝗺𝗲 𝗜𝘀 𝗕𝗲𝗲𝗿𝘂𝘀 😈\n" +
+		"𝗜𝗺 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗛𝗲𝗹𝗽 𝗬𝗼𝘂 𝗠𝗮𝗻𝗮𝗴𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽!\n" +
+		"𝗛𝗶𝘁 /mstart 𝗙𝗼𝗿 𝗠𝘂𝘀𝗶𝗰 𝗦𝗲𝗰𝘁𝗶𝗼𝗻\n" +
+		"𝗝𝗼𝗶𝗻 𝗠𝘆 <a href='https://t.me/Godx_bots'>𝗡𝗲𝘄𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹</a> 𝗧𝗼 𝗚𝗲𝘁 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗻𝗼 𝗢𝗻 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗟𝗮𝘁𝗲𝘀𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀."
 	mainhlp = "Hey %s!\n" +
 		"My name is Alita ✨.\n\n" +
 		"I am a group management bot, here to help you get around and keep the order in your groups!\n" +
@@ -98,23 +98,23 @@ var (
 			},
 			{
 				{
-					Text: "➕ Add me to chat!",
-					Url:  "https://t.me/Alita_Robot?startgroup=botstart",
+					Text: "𝗔𝗱𝗱 𝗠𝗲",
+					Url:  "https://t.me/beerus_godxbot?startgroup=botstart",
 				},
 				{
-					Text: "Support Group 👥",
-					Url:  "https://t.me/DivideSupport",
+					Text: "𝗦𝘂𝗽𝗽𝗼𝗿𝘁",
+					Url:  "https://t.me/the_strangers_home",
 				},
 			},
 			{
 				{
-					Text:         "📚 Commands & Help",
+					Text:         "𝗛𝗲𝗹𝗽",
 					CallbackData: "helpq.Help",
 				},
 			},
 			{
 				{
-					Text:         "Language 🌏",
+					Text:         "𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲",
 					CallbackData: "helpq.Languages",
 				},
 			},
