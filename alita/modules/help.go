@@ -1,4 +1,4 @@
-package modules
+npackage modules
 
 import (
 	"fmt"
@@ -28,10 +28,10 @@ var HelpModule = moduleStruct{
 
 const (
 	aboutText = "Info & About\n\nHere are some of the FAQs about Alita."
-	startHelp = "𝗛𝗲𝘆 𝗧𝗵𝗲𝗿𝗲! 𝗠𝘆 𝗡𝗮𝗺𝗲 𝗜𝘀 𝗕𝗲𝗲𝗿𝘂𝘀 😈\n" +
-		"𝗜𝗺 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗛𝗲𝗹𝗽 𝗬𝗼𝘂 𝗠𝗮𝗻𝗮𝗴𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽!\n" +
-		"𝗛𝗶𝘁 /mstart 𝗙𝗼𝗿 𝗠𝘂𝘀𝗶𝗰 𝗦𝗲𝗰𝘁𝗶𝗼𝗻\n" +
-		"𝗝𝗼𝗶𝗻 𝗠𝘆 <a href='https://t.me/Godx_bots'>𝗡𝗲𝘄𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹</a> 𝗧𝗼 𝗚𝗲𝘁 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗻𝗼 𝗢𝗻 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗟𝗮𝘁𝗲𝘀𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀."
+	startHelp = "Hᴇʏ Tʜᴇʀᴇ Iᴍ Bᴇᴇʀᴜs Tʜᴇ Gᴏᴅ Oғ Dᴇsᴛʀᴜᴄᴛɪᴏɴ\n" +
+		"Iᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ\n" +
+		"Hɪᴛ /mstart Fᴏʀ Mᴜsɪᴄ Sᴇᴄᴛɪᴏɴ\n" +
+		"Aʙᴏᴜᴛ Oғ Mʏ Cʀᴇᴀᴛᴏʀ <a href='https://t.me/about_your_shiv'>Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ</a> 🥀"
 	mainhlp = "Hey %s!\n" +
 		"My name is Alita ✨.\n\n" +
 		"I am a group management bot, here to help you get around and keep the order in your groups!\n" +
@@ -59,7 +59,7 @@ var (
 		InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 			{
 				{
-					Text:         "Aʙᴏᴜᴛ Mᴇ 🤖\u200d💻",
+					Text:         "Aʙᴏᴜᴛ Mᴇ 🤖",
 					CallbackData: "about.me",
 				},
 			},
@@ -75,7 +75,7 @@ var (
 			},
 			{
 				{
-					Text:         "Cᴏɴғɪɢᴀʀᴀᴛɪᴏɴ ⚙️",
+					Text:         "Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ⚙️",
 					CallbackData: "configuration.step1",
 				},
 			},
@@ -92,7 +92,7 @@ var (
 		InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 			{
 				{
-					Text:         "Aʙᴏᴜᴛ ⚡️",
+					Text:         "Aʙᴏᴜᴛ ✨",
 					CallbackData: "about.main",
 				},
 			},
@@ -108,7 +108,7 @@ var (
 			},
 			{
 				{
-					Text:         "Cᴏᴍᴍᴀɴᴅs",
+					Text:         "Hᴇʟᴘ 💡",
 					CallbackData: "helpq.Help",
 				},
 			},
