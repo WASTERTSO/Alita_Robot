@@ -70,7 +70,7 @@ It really motivates me to continue this project further.
 - Now go to the deploy tab of your app and under deployment method select GitHub and connect it.
 - after that, type the forked repo name and select it now select main branch and enable auto deploy, at last click on deploy now button!
 </h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/divideprojects/Alita_Robot"> <img src="https://img.shields.io/badge/Redirect%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/wastertso/Alita_Robot"> <img src="https://img.shields.io/badge/Redirect%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
 
 - Lastly, you must fill up all the vars in heroku (if using heroku) as directed in app.json file and now turn on the worker dyno to run it `:)`
 
