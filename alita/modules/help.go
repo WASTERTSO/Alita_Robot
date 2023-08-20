@@ -47,11 +47,11 @@ const (
 var (
 	backBtnSuffix = []gotgbot.InlineKeyboardButton{
 		{
-			Text:         "« Back",
+			Text:         "Bᴀᴄᴋ 🔄",
 			CallbackData: "helpq.Help",
 		},
 		{
-			Text:         "Home",
+			Text:         "Hᴏᴍᴇ 🏠",
 			CallbackData: "helpq.BackStart",
 		},
 	}
@@ -59,30 +59,30 @@ var (
 		InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 			{
 				{
-					Text:         "About me 👨\u200d💻",
+					Text:         "Aʙᴏᴜᴛ Mᴇ 🤖\u200d💻",
 					CallbackData: "about.me",
 				},
 			},
 			{
 				{
-					Text: "News Channel 📢",
-					Url:  "https://t.me/AlitaRobotUpdates",
+					Text: "Sᴜᴘᴘᴏʀᴛ 🚑",
+					Url:  "https://t.me/the_strangers_home",
 				},
 				{
-					Text: "Support Group 👥",
-					Url:  "https://t.me/DivideSupport",
+					Text: "Uᴘᴅᴀᴛᴇs 📡",
+					Url:  "https://t.me/Godx_bots",
 				},
 			},
 			{
 				{
-					Text:         "Configuration ⚙️",
+					Text:         "Cᴏɴғɪɢᴀʀᴀᴛɪᴏɴ ⚙️",
 					CallbackData: "configuration.step1",
 				},
 			},
 			{
 				// custom back button
 				{
-					Text:         "⬅ Back",
+					Text:         "Bᴀᴄᴋ 🔄",
 					CallbackData: "helpq.BackStart",
 				},
 			},
@@ -92,29 +92,29 @@ var (
 		InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 			{
 				{
-					Text:         "About ✨",
+					Text:         "Aʙᴏᴜᴛ ⚡️",
 					CallbackData: "about.main",
 				},
 			},
 			{
 				{
-					Text: "𝗔𝗱𝗱 𝗠𝗲",
+					Text: "Aᴅᴅ Mᴇ ➕",
 					Url:  "https://t.me/beerus_godxbot?startgroup=botstart",
 				},
 				{
-					Text: "𝗦𝘂𝗽𝗽𝗼𝗿𝘁",
+					Text: "Sᴜᴘᴘᴏʀᴛ 🚑",
 					Url:  "https://t.me/the_strangers_home",
 				},
 			},
 			{
 				{
-					Text:         "𝗛𝗲𝗹𝗽",
+					Text:         "Cᴏᴍᴍᴀɴᴅs",
 					CallbackData: "helpq.Help",
 				},
 			},
 			{
 				{
-					Text:         "𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲",
+					Text:         "Lᴀɴɢᴜᴀɢᴇ 🌏",
 					CallbackData: "helpq.Languages",
 				},
 			},
@@ -174,7 +174,7 @@ func (moduleStruct) about(b *gotgbot.Bot, ctx *ext.Context) error {
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 					{
 						{
-							Text:         "Back",
+							Text:         "Bᴀᴄᴋ 🔄",
 							CallbackData: "about.main",
 						},
 					},
@@ -209,7 +209,7 @@ func (moduleStruct) about(b *gotgbot.Bot, ctx *ext.Context) error {
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{
 					{
 						{
-							Text: "About",
+							Text: "Aʙᴏᴜᴛ ⚡️",
 							Url:  fmt.Sprintf("https://t.me/%s?start=about", b.Username),
 						},
 					},
